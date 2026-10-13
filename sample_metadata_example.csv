@@ -1,0 +1,6 @@
+donor_id,specimen_id,tissue_site,tissue_system,collection_to_processing_hours,assay_platform,assay_protocol_version,proteins_identified,qc_status,release_id
+EXAMPLE-D0001,EXAMPLE-S000101,liver,digestive,6.5,Orbitrap Astral,v1.3,11240,pass,EXAMPLE-R1
+EXAMPLE-D0001,EXAMPLE-S000102,kidney cortex,urinary,6.5,Orbitrap Astral,v1.3,10870,pass,EXAMPLE-R1
+EXAMPLE-D0001,EXAMPLE-S000103,heart left ventricle,cardiovascular,6.5,Orbitrap Astral,v1.3,10110,pass,EXAMPLE-R1
+EXAMPLE-D0002,EXAMPLE-S000201,liver,digestive,9.0,Orbitrap Astral,v1.3,11530,pass,EXAMPLE-R1
+EXAMPLE-D0002,EXAMPLE-S000202,lung,respiratory,9.0,Orbitrap Astral,v1.3,10420,pass,EXAMPLE-R1
