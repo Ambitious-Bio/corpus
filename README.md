@@ -39,9 +39,14 @@ Beginning in 2027 the program adds, on the same material: short-read and long-re
 | Clinical history | Limited donor metadata | Limited | Partial records | Full EHR linkage |
 | Access | Public | Public | Commercial license | Commercial license |
 
-GTEx remains the larger resource by donor count today. To our knowledge, no other prospectively generated human tissue proteomics dataset matches Corpus on tissue sites per donor or proteins identified per sample. In the 39 tissue types that Corpus and HPA share, adding Corpus expands the detected protein inventory in every one; the per-tissue counts are published as CSV at https://ambitious.bio/data/corpus-vs-hpa-detected-genes-per-tissue.csv.
+GTEx remains the larger resource by donor count today. To our knowledge, no other human tissue proteomics dataset samples as many tissue sites per donor as Corpus, and none is generated prospectively under a single protocol with continuous collection. Each Corpus sample yields approximately 10,000–12,000 identified proteins. In the 39 tissue types that Corpus and HPA share, adding Corpus expands the detected protein inventory in every one; the per-tissue counts are published as CSV at https://ambitious.bio/data/corpus-vs-hpa-detected-genes-per-tissue.csv.
 
-References: GTEx Consortium, *Science* 369, 1318–1330 (2020), https://doi.org/10.1126/science.aaz1776 · Jiang et al., *Cell* 183, 269–283 (2020), https://doi.org/10.1016/j.cell.2020.08.036 · Uhlén et al., *Science* 347, 1260419 (2015), https://doi.org/10.1126/science.1260419
+References: GTEx Consortium, *Science* 369, 1318–1330 (2020), https://doi.org/10.1126/science.aaz1776 · Jiang et al., *Cell* 183, 269–283 (2020), https://doi.org/10.1016/j.cell.2020.08.036 · Uhlén et al., *Science* 347, 1260419 (2015), https://doi.org/10.1126/science.1260419 · Kim et al., *Nature* 509, 575–581 (2014), https://doi.org/10.1038/nature13302 · Wang et al., *Mol Syst Biol* 15, e8503 (2019), https://doi.org/10.15252/msb.20188503
+
+### Corpus and the mass-spectrometry tissue maps
+
+The closest technical peers to Corpus are the public MS proteome maps of healthy human tissue: the Human Proteome Map (Kim et al., 2014; 30 samples, each pooled from three individuals; 17,294 genes with protein evidence), the 29-tissue atlas (Wang et al., 2019; one specimen per tissue from different individuals; ~11,000 protein groups per tissue with deep fractionation; PRIDE PXD010154), and the GTEx proteomics study (Jiang et al., 2020; 201 samples, 32 tissues, 14 donors). Corpus keeps the GTEx study's within-donor design and runs it continuously: about 30 sites per donor on average, prospective, single protocol, Orbitrap Astral, roughly 10,000–12,000 proteins per sample. Its per-sample depth is comparable to the 29-tissue atlas's fractionated per-tissue depth, reached in each individual sample for each donor.
+
 
 ## Data structure (illustrative)
 
